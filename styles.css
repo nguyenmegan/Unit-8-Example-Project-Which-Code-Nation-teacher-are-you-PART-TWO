@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80");
+    background-size: 1300px;
+}
+
+.layer {
+    background-color: rgba(23, 211, 255, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.questions {
+    font-family: 'Lato', sans-serif;
+    margin: 0px 100px 0px 100px;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #fee975;
+    padding: 20px 50px;
+}
+
+img {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    background-color: #00ffcc;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+button:hover {
+    background-color: #e4a4ee;
+    color: white;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.results {
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    display: none;
+    text-align: center;
+    background-color: #ffaa7b;
+}
+
+.counter {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+}
